@@ -11,7 +11,7 @@ pipeline{
     stage('checkout'){
       steps{
         git(
-          url:"https://github.com/likhitha050/app-flask",
+          url:"https://github.com/likhitha050/app-flask.git",
           branch: 'main'
         )
       }
