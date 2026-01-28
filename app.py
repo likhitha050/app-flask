@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
-@app.route
+@app.route('/')
 def home():
 	return "HELLO THIS IS FROM FLASK WITH CRON TRIGGERS DEPLOYED ON KUBERNETES"
 if__name__=='__main__':
